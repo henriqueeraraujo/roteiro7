@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1506431947 source:/home/aluno/Documentos/roteiro7/r7q1/main.cpp
+	<iostream>
+
+1506432531 source:/home/aluno/Documentos/roteiro7/r7q1/src/FiguraGeometrica.cpp
+	"FiguraGeometrica.h"
+
+1506434692 /home/aluno/Documentos/roteiro7/r7q1/include/FiguraGeometrica.h
+	<string>
+	<iostream>
+
+1506434700 source:/home/aluno/Documentos/roteiro7/r7q1/src/Triangulo.cpp
+	"Triangulo.h"
+	"FiguraGeometrica.h"
+
+1506434617 /home/aluno/Documentos/roteiro7/r7q1/include/Triangulo.h
+	"FiguraGeometrica.h"
+
