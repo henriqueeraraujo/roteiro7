@@ -1,29 +1,24 @@
 #include "Triangulo.h"
-#include "FiguraGeometrica.h"
 
-Triangulo::Triangulo() : FiguraGeometrica()
+Triangulo::Triangulo() : FiguraGeometrica("TRIANGULO")
 {
-
     base=0;
     altura=0;
 }
-Triangulo::Triangulo(std::string nome, float base, float altura3): FiguraGeometrica(nome="Triangulo"){
+void Triangulo::setTriangulo(float base, float altura)
+{
     this->base=base;
     this->altura=altura;
+}
+float Triangulo::CalcularArea(){
+    float area;
+
+    area = (base*altura)/2;
+
+    return area;
 
 }
 Triangulo::~Triangulo()
 {
     //dtor
-}
-void Triangulo::calcularArea(){
-
-    float area;
-
-    area=(base*altura)/2;
-
-
-    std::cout<<"A area do triangulo eh: "<<area<<std::endl;
-
-
 }

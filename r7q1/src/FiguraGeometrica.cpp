@@ -1,12 +1,10 @@
 #include "FiguraGeometrica.h"
 
-FiguraGeometrica::FiguraGeometrica()
+FiguraGeometrica::FiguraGeometrica(std::string  nome)
 {
-    //ctor
-}
-FiguraGeometrica::FiguraGeometrica(std::string nome){
     this->nome=nome;
 }
+
 FiguraGeometrica::~FiguraGeometrica()
 {
     //dtor

@@ -2,23 +2,18 @@
 #define TRIANGULO_H
 #include "FiguraGeometrica.h"
 
+
 class Triangulo : public FiguraGeometrica
 {
-
-   protected:
-
+    protected:
         float base, altura;
-
 
     public:
         Triangulo();
-        Triangulo(std::string nome, float base, float altura);
+        void  setTriangulo(float base, float altura);
         virtual ~Triangulo();
-        void calcularArea();
+        float CalcularArea();
 
-    protected:
-
-    private:
 };
 
 #endif // TRIANGULO_H

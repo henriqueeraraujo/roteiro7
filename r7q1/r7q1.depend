@@ -16,3 +16,38 @@
 1506434617 /home/aluno/Documentos/roteiro7/r7q1/include/Triangulo.h
 	"FiguraGeometrica.h"
 
+1507034443 source:/home/henrique/Documentos/roteiro7/r7q1/main.cpp
+	<iostream>
+
+1507033384 source:/home/henrique/Documentos/roteiro7/r7q1/src/FiguraGeometrica.cpp
+	"FiguraGeometrica.h"
+
+1507033384 /home/henrique/Documentos/roteiro7/r7q1/include/FiguraGeometrica.h
+	<string>
+
+1507036849 source:/home/henrique/Documentos/roteiro7/r7q1/src/Circulo.cpp
+	"Circulo.h"
+
+1507036834 /home/henrique/Documentos/roteiro7/r7q1/include/Circulo.h
+	"FiguraGeometrica.h"
+
+1507036777 source:/home/henrique/Documentos/roteiro7/r7q1/src/Quadrado.cpp
+	"Quadrado.h"
+
+1507036753 /home/henrique/Documentos/roteiro7/r7q1/include/Quadrado.h
+	"FiguraGeometrica.h"
+
+1507036753 source:/home/henrique/Documentos/roteiro7/r7q1/src/Triangulo.cpp
+	"Triangulo.h"
+
+1507036753 /home/henrique/Documentos/roteiro7/r7q1/include/Triangulo.h
+	"FiguraGeometrica.h"
+
+1507036241 source:/home/henrique/Documentos/roteiro7/r7q1/src/TestaFigurasGeometricas.cpp
+	"TestaFigurasGeometricas.h"
+
+1507037411 /home/henrique/Documentos/roteiro7/r7q1/include/TestaFigurasGeometricas.h
+	"Triangulo.h"
+	"Circulo.h"
+	"Quadrado.h"
+
