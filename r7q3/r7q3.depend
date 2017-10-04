@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1507086582 source:/home/henrique/Documentos/roteiro7/r7q3/main.cpp
+	<iostream>
+	"Hospital.h"
+
+1507078675 source:/home/henrique/Documentos/roteiro7/r7q3/src/Medico.cpp
+	"Medico.h"
+
+1507078749 /home/henrique/Documentos/roteiro7/r7q3/include/Medico.h
+	<iostream>
+	<stdio.h>
+
+1507083014 source:/home/henrique/Documentos/roteiro7/r7q3/src/Cirurgiao.cpp
+	"Cirurgiao.h"
+
+1507082533 /home/henrique/Documentos/roteiro7/r7q3/include/Cirurgiao.h
+	"Medico.h"
+
+1507083623 source:/home/henrique/Documentos/roteiro7/r7q3/src/Oftalmologista.cpp
+	"Oftalmologista.h"
+
+1507083633 /home/henrique/Documentos/roteiro7/r7q3/include/Oftalmologista.h
+	"Medico.h"
+
+1507086335 source:/home/henrique/Documentos/roteiro7/r7q3/src/Ginecologista.cpp
+	"Ginecologista.h"
+
+1507086076 /home/henrique/Documentos/roteiro7/r7q3/include/Ginecologista.h
+	"Medico.h"
+
+1507083500 source:/home/henrique/Documentos/roteiro7/r7q3/src/Otorrino.cpp
+	"Otorrino.h"
+
+1507083500 /home/henrique/Documentos/roteiro7/r7q3/include/Otorrino.h
+	"Medico.h"
+
+1507086059 /home/henrique/Documentos/roteiro7/r7q3/include/Hospital.h
+	"Cirurgiao.h"
+	"Oftalmologista.h"
+	"Otorrino.h"
+	"Ginecologista.h"
+
+1507086059 source:/home/henrique/Documentos/roteiro7/r7q3/src/Hospital.cpp
+	"Hospital.h"
+
