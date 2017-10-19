@@ -11,7 +11,7 @@ class TrablhadorAssalariado : public Trabalhador
     public:
         TrablhadorAssalariado();
         TrablhadorAssalariado(string nome, float salario);
-        void calculaPagamento(float horas);
+        void calcularPagamento(float horas);
         virtual ~TrablhadorAssalariado();
 
     protected:

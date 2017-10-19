@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1508329879 source:/home/henrique/Documentos/roteiro7/r7q4/main.cpp
+1508417093 source:/home/henrique/Documentos/roteiro7/r7q4/main.cpp
 	<iostream>
+	"teste.h"
 
 1508330535 source:/home/henrique/Documentos/roteiro7/r7q4/src/Trabalhador.cpp
 	"Trabalhador.h"
@@ -11,14 +12,21 @@
 1508332377 source:/home/henrique/Documentos/roteiro7/r7q4/src/TrabalhadorPorHora.cpp
 	"TrabalhadorPorHora.h"
 
-1508332034 /home/henrique/Documentos/roteiro7/r7q4/include/TrabalhadorPorHora.h
+1508415996 /home/henrique/Documentos/roteiro7/r7q4/include/TrabalhadorPorHora.h
 	<iostream>
 	"Trabalhador.h"
 
-1508332422 source:/home/henrique/Documentos/roteiro7/r7q4/src/TrablhadorAssalariado.cpp
+1508415254 source:/home/henrique/Documentos/roteiro7/r7q4/src/TrablhadorAssalariado.cpp
 	"TrablhadorAssalariado.h"
 
-1508332556 /home/henrique/Documentos/roteiro7/r7q4/include/TrablhadorAssalariado.h
+1508415287 /home/henrique/Documentos/roteiro7/r7q4/include/TrablhadorAssalariado.h
 	<iostream>
 	"Trabalhador.h"
+
+1508416245 /home/henrique/Documentos/roteiro7/r7q4/include/teste.h
+	"TrabalhadorPorHora.h"
+	"TrablhadorAssalariado.h"
+
+1508416656 source:/home/henrique/Documentos/roteiro7/r7q4/src/teste.cpp
+	"teste.h"
 

@@ -5,14 +5,18 @@
 
 class teste
 {
-    protected:
+    public:
+        teste();
+        void cadastrarTrabalhadorAssalariado();
+        void cadastrarTrabalhadorPorHora();
+        void CalcularPagamentoTrabalhadorAssalariado();
+        void CalcularPagamentoTrabalhadorPorHora();
+        void menu();
+        virtual ~teste();
         TrabalhadorPorHora t1;
         TrablhadorAssalariado t2;
 
 
-    public:
-        teste();
-        virtual ~teste();
 
 };
 
